@@ -1,5 +1,3 @@
-import Chart from "@/components/chart";
-
 export default function Home() {
   return (
     <main>
@@ -7,9 +5,7 @@ export default function Home() {
         <div className="text-lg shrink-0">
           This is some text, It&apos;s a long long  text
         </div>
-        <div className="flex-grow w-full h-96 rounded-lg border">
-          <Chart />
-        </div>
+        <div className="flex-grow w-full h-96 rounded-lg border">some text</div>
       </div>
     </main>
   );
